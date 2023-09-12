@@ -2,12 +2,12 @@ amplitude_version = "8.15.2" # Version is managed automatically by semantic-rele
 
 Pod::Spec.new do |s|
   s.name                   = "Amplitude"
-  s.version                = amplitude_version 
+  s.version                = "8.15.3-static"
   s.summary                = "Amplitude iOS/tvOS/macOS SDK."
   s.homepage               = "https://amplitude.com"
   s.license                = { :type => "MIT" }
   s.author                 = { "Amplitude" => "dev@amplitude.com" }
-  s.source                 = { :git => "https://github.com/amplitude/Amplitude-iOS.git", :tag => "v#{s.version}" }
+  s.source                 = { :git => "https://github.com/kamavitalya/Amplitude-iOS.git", :tag => "v#{s.version}" }
   s.requires_arc           = true
   s.library                = 'sqlite3.0'
 
